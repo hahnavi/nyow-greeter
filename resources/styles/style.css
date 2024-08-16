@@ -1,0 +1,74 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+window {
+  background: rgba(0, 0, 0, 0);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-bar {
+  padding: 10px;
+}
+
+button {
+  border-radius: 3px;
+}
+
+.combobox-transparent button {
+  background: rgba(0, 0, 0, 0);
+  padding: 0 10px;
+}
+
+.list-box-users {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+}
+
+.list-box-users row {
+  border-radius: 3px;
+}
+
+.box-user-list-item {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.btn-transparent {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.entry-transparent {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.box-entry-user-passwd {
+  padding-left: 10px;
+  background: rgb(46, 46, 46);
+  border-radius: 3px;
+}
+
+.btn-login {
+  border: none;
+  border-radius: 0 3px 3px 0;
+  background: rgb(33, 79, 216);
+}
+
+.btn-login:hover {
+  background: rgb(40, 94, 255);
+}
+
+.btn-login:active {
+  background: rgb(27, 65, 180);
+}
+
+.bottom-bar {
+  padding: 10px;
+}
